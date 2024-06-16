@@ -1,0 +1,80 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+html, body {
+    margin: 0; 
+    padding: 0;
+    height: 100%;
+    background-color: #ffffffd0;
+    background: linear-gradient(to bottom right, #307fce, rgb(142, 68, 173));
+
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.country-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.country-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.country-box img {
+    margin: -3px;
+    height: auto;
+    width: 100%; /* Asegura que la imagen cubra completamente el contenedor */
+}
+
+.country-box:hover {
+    transform: scale(1.1);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#pais1 {
+    background-color: #AD1519    ;
+}
+#pais2 {
+    background-color: #28036a; /* Establece la imagen de la bandera para el país 2 */
+    color: white
+}
+
+#pais3 {
+    background-color: #FFFFFF    ; /* Establece la imagen de la bandera para el país 2 */
+}
+#pais4 {
+    background-color: 	#009246; /* Establece la imagen de la bandera para el país 2 */
+}
+#pais5 {
+    background-color: #FFCC00    ; /* Establece la imagen de la bandera para el país 2 */
+}
+#pais6 {
+    background-color: #DA291C    ; /* Establece la imagen de la bandera para el país 2 */
+}
+#pais7 {
+    background-color:  white; /* Establece la imagen de la bandera para el país 2 */
+}
+#pais8 {
+    background-color:#006AA7
+    ; /* Establece la imagen de la bandera para el país 2 */
+}
+#pais9 {
+    background-color: #BA0C2F; /* Establece la imagen de la bandera para el país 2 */
+}

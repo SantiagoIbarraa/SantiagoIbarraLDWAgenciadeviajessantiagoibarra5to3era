@@ -1,0 +1,76 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #ffffffd0;
+    background: linear-gradient(to bottom right, #307fce, rgb(142, 68, 173));
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .country-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .country-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .country-box img {
+    margin: -3px;
+    height: auto;
+    width: 100%; /* Asegura que la imagen cubra completamente el contenedor */
+  }
+  
+  .country-box:hover {
+    transform: scale(1.1);
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  #pais1 {
+    background-color: #E00000; /* China */
+  }
+  #pais2 {
+    background-color: #FF0000; /* Japón */
+  }
+  #pais3 {
+    background-color: #00FF00; /* India */
+  }
+  #pais4 {
+    background-color: #FF00FF; /* Indonesia */
+  }
+  #pais5 {
+    background-color: #FF8000; /* Pakistán */
+  }
+  #pais6 {
+    background-color: #008000; /* Vietnam */
+  }
+  #pais7 {
+    background-color: #0000FF; /* Corea del Norte */
+  }
+  #pais8 {
+    background-color: #000080; /* Corea del Sur */
+  }
+  #pais9 {
+    background-color: #00F0FF; /* Filipinas */
+  }
+  

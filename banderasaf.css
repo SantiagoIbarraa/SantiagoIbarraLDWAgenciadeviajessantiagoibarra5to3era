@@ -1,0 +1,79 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+html, body {
+    margin: 0; 
+    padding: 0;
+    height: 100%;
+    background-color: #ffffffd0;
+    background: linear-gradient(to bottom right, #307fce, rgb(142, 68, 173));
+
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.country-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.country-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.country-box img {
+    margin: -3px;
+    height: auto;
+    width: 100%; /* Asegura que la imagen cubra completamente el contenedor */
+}
+
+.country-box:hover {
+    transform: scale(1.1);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#pais1 {
+    background-color: #008751; /* Color de Nigeria */
+}
+#pais2 {
+    background-color: #CE1126; /* Color de Egipto */
+    color: white;
+}
+#pais3 {
+    background-color: #007A4D; /* Color de Sudáfrica */
+}
+#pais4 {
+    background-color: #0065A1; /* Color de Kenia */
+}
+#pais5 {
+    background-color: #FFD700; /* Color de Etiopía */
+}
+#pais6 {
+    background-color: #006B3F; /* Color de Ghana */
+}
+#pais7 {
+    background-color: #CE1126; /* Color de Argelia */
+    color: white;
+}
+#pais8 {
+    background-color: #1EB53A; /* Color de Tanzania */
+}
+#pais9 {
+    background-color: #FF0000; /* Color de Uganda */
+}
